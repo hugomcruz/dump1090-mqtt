@@ -1,0 +1,13 @@
+{
+  "MQTTServerURL":"tcp://server.com:1883",
+  "MQTTClientID":"client-string",
+  "MQTTTopic":"topic/subtopic",
+  "MQTTQos":0,
+  "MQTTUsername":"user",
+  "MQTTPassword":"pass",
+  "Dump1090Server":"10.0.0.1",
+  "Dump1090Port": 30003,
+  "BatchTimeWindow": 3,
+  "LogLevel":"INFO"
+
+}

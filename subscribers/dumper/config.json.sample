@@ -1,0 +1,8 @@
+{
+  "MQTTServerURL":"tcp://serber-name.com:1883",
+  "MQTTClientID":"client-string",
+  "MQTTTopic":"topic/subtopic",
+  "MQTTQos":0,
+  "MQTTUsername":"user",
+  "MQTTPassword":"pass"
+}

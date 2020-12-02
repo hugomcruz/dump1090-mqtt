@@ -1,0 +1,10 @@
+{
+  "MQTTServerURL":"tcp://server.com:1883",
+  "MQTTClientID":"client-id",
+  "MQTTTopic":"topic/subtopic",
+  "MQTTQos":0,
+  "MQTTUsername":"user",
+  "MQTTPassword":"pass",
+  "FilesPath":"/tmp",
+  "LogLevel":"INFO"
+}

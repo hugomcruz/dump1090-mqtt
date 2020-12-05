@@ -152,7 +152,7 @@ func consume() {
 			if timestamp >= nextRoll {
 				log.Info("Rolling the storage file now.")
 				file.Close()
-				e := os.Rename(filename+".tmp", filename)
+				e := os.Rename(fullpath+".tmp", filename)
 				if e != nil {
 					log.Fatal(e)
 				}
